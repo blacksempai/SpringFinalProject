@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <link rel="stylesheet" th:href="@{/css/styles.css}">
+        <meta charset="UTF-8">
+        <title>404</title>
+    </head>
+    <body>
+        <div class="header" th:insert="shared/header :: header">
+        </div>
+        <div id="er" class="error">
+            ERROR 404 <br>
+            PAGE NOT FOUND <br>
+            <img src="/graphics/trueno.gif" onclick="document.getElementById('er').className='error-alternative'">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" th:href="@{/css/styles.css}">
+        <meta charset="UTF-8">
+        <title>Reports</title>
+    </head>
+    <body>
+        <div class="header" th:insert="shared/header :: header">
+        </div>
+        <div align="center">
+            <block th:if="${reports.isEmpty()}">
+                Нових декларацій немає
+            </block>
+            <block th:each="report : ${reports}">
+                <a th:href="@{review(id=${report.id})}" th:text="#{label.report} + ${report.id} + #{label.date} + ${report.declarationSubmissionDate}"></a>
+                    Пользователь:<i th:text="${report.user.login}"></i><br>
+            </block>
+        </div>
+    </body>
+</html>

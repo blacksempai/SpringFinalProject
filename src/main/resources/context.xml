@@ -1,0 +1,14 @@
+<Context antiJARLocking="true">
+        <Resource
+                name="jdbc/taxes"
+                auth="Container"
+                type="javax.sql.DataSource"
+                username="root"
+                password="root"
+                driverClassName="com.mysql.jdbc.Driver"
+                url="jdbc:mysql://localhost:3306/taxes?serverTimezone=UTC"
+                maxActive="32"
+                maxIdle="8"
+                maxWait="10000"
+        />
+</Context>

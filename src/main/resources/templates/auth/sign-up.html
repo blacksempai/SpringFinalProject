@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" th:href="@{/css/styles.css}">
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="header" th:insert="shared/header :: header">
+        </div>
+        <div class="sign-form">
+            <div th:if="${message!=null}">
+                <div style="color:red;" th:text="${message}"></div><br/>
+            </div>
+            <form method="POST" action="sign-up">
+                <label class="form-label" th:text="#{label.login}"></label>
+                <input class="reg-input" type="text" name="login" th:value="${param.login}"><label style="color:red;">*</label><br/><br/>
+
+                <label class="form-label" th:text="#{label.password}"></label>
+                <input class="reg-input" type="password" name="password"><label style="color:red;">*</label><br/><br/>
+
+                <label class="form-label" th:text="#{label.password-a}"></label>
+                <input class="reg-input" type="password" name="passwordConfirm"><label style="color:red;">*</label><br/><br/>
+
+                <label class="form-label" th:text="#{label.email}"></label>
+                <input class="reg-input" type="text" name="email" th:value="${param.email}"><label style="color:red;">*</label><br/><br/>
+
+                <label class="form-label" th:text="#{label.full}"></label>
+                <input class="reg-input" type="text" name="full_name" th:value="${param.full_name}"><label style="color:red;">*</label><br/><br/>
+
+                <label class="form-label" th:text="#{label.company}"></label>
+                <input class="reg-input" type="text" name="company" th:value="${param.company}"><br/><br/>
+
+                <label class="form-label" th:text="#{label.passport}"></label>
+                <input class="reg-input" type="text" name="passport" th:value="${param.passport}"><label style="color:red;">*</label><br/><br/>
+
+                <label class="form-label" th:text="#{label.address}"></label>
+                <input class="reg-input" type="text" name="address" th:value="${param.address}"><label style="color:red;">*</label><br/><br/>
+
+                <label style="color:red;">*</label><label class="form-label" th:text="#{label.tax}"></label><br/>
+
+                <label class="form-label"></label><label class="r-label" th:text="#{label.first}"></label>
+                <input type="radio" name="group" value="first"><br>
+
+                <label class="form-label"></label><label class="r-label" th:text="#{label.second}"></label>
+                <input type="radio" name="group" value="second"><br>
+
+                <label class="form-label"></label><label class="r-label" th:text="#{label.third}"></label>
+                <input type="radio" name="group" value="third"><br><br>
+
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+<head>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <meta charset="UTF-8">
+    <title>Reports</title>
+</head>
+<body>
+    <div class="header" th:insert="shared/header :: header">
+    </div>
+<div class="content">
+<th:block th:each="report : ${reports}">
+    <div th:if="${report.status.name() == 'PENDING'}">
+        <label class="status-label" style="color:grey;">
+            <a th:href="@{my-report(id=${report.id})}" th:text="#{label.report} + ${report.id} + #{label.date} + ${report.declarationSubmissionDate}"></a>: status = <b th:text="${report.status}"></b></label>
+        <label class="inspector-label" th:text="#{label.checker} + ' ' + ${report.inspector.fullName}"></label>
+        <a th:href="@{change-inspector(id=${report.id})}" th:text="#{label.chng}"></a>
+        <a th:href="@{delete-report(id=${report.id})}" th:text="#{label.delete}"></a>
+    </div>
+    <div th:if="${report.status.name() == 'DECLINED'}">
+        <label class="status-label" style="color:red;">
+        <a th:href="@{report-edit(id=${report.id})}" th:text="#{label.report} + ${report.id} + #{label.date} + ${report.declarationSubmissionDate}"></a>:status = <b th:text="${report.status}"></b></label>
+        <label class="inspector-label" th:text="#{label.checker} + ' ' + ${report.inspector.fullName}"></label>
+        <a th:href="@{change-inspector(id=${report.id})}"nth:text="#{label.chng}"></a>
+        <a th:href="@{delete-report(id=${report.id})}" th:text="#{label.delete}"></a>
+    </div>
+    <div th:if="${report.status.name() == 'ACCEPTED'}">
+        <label class="status-label" style="color:green;">
+        <a th:href="@{my-report(id=${report.id})}" th:text="#{label.report} + ${report.id} + #{label.date} + ${report.declarationSubmissionDate}"></a>: status = <b th:text="${report.status}"></b></label>
+        <label class="inspector-label" th:text="#{label.report} + ${report.inspector.fullName}"></label>
+    </div>
+    <br>
+</th:block>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div th:fragment="header">
+        <div class="logo">
+            TAX REPORTING
+            <a href="/"><img id="home-logo" th:src="@{/graphics/home.png}" height="20" width="30"></a>
+            <a class="nav-link" href="/?cookieLocale=us"><img th:src="@{/graphics/us.png}" height="20" width="30"></a>
+            <a class="nav-link" href="/?cookieLocale=ua"><img src="/graphics/ua.png" height="20" width="30"></a>
+            <a class="nav-link" href="/?cookieLocale=ru"><img src="/graphics/ru.png" height="20" width="30"></a>
+            <a class="nav-link" href="/?cookieLocale=jp"><img src="/graphics/jp.png" height="20" width="30"></a>
+        </div>
+        <div class="home">
+            <div th:if="${session.user!=null}">
+                    <a class="nav-link" href="/user/profile" th:text=${session.user.login}></a>
+                    <a class="nav-link" href="/user/all-reports" th:text="#{label.my-rep}"></a>
+                    <a class="nav-link" href="/user/new-report" th:text="#{label.new-rep}"></a>
+                    <a class="nav-link" href="/auth/sign-out" th:text="#{label.exit}"></a>
+            </div>
+            <div th:if="${session.inspector!=null}">
+                    <a class="nav-link" href="/inspector/profile" th:text=${session.inspector.login}></a>
+                    <a class="nav-link" href="/inspector/reports" th:text="#{label.ins-rep}"></a>
+                    <a class="nav-link" href="/auth/sign-out" th:text="#{label.exit}"></a>
+            </div>
+
+            <div th:if="${session.admin!=null}">
+                    <a class="nav-link" href="/admin/panel" th:text="#{label.panel}"></a>
+                    <a class="nav-link" href="/auth/sign-out" th:text="#{label.exit}"></a>
+            </div>
+
+            <div th:if="${session.user==null&&session.inspector==null&&session.admin==null}">
+                    <a class="nav-link" href="/auth/sign-up" th:text="#{label.reg}"></a>
+                    <a class="nav-link" href="/auth/sign-in" th:text="#{label.log}"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

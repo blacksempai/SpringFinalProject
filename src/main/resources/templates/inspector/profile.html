@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" th:href="@{/css/styles.css}">
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="header" th:insert="shared/header :: header">
+        </div>
+        <div class="sign-form">
+         <h2>Inspector info:</h2>
+                         <label class="form-label">id:</label>
+                         <label th:text=${session.inspector.id}></label><br/><br/>
+
+                         <label class="form-label">login:</label>
+                         <label th:text=${session.inspector.login}></label><br/><br/>
+
+                         <label class="form-label">email:</label>
+                         <label th:text=${session.inspector.email}></label><br/><br/>
+
+                         <label class="form-label">full name:</label>
+                         <label th:text=${session.inspector.fullName}></label><br/><br/>
+
+                         <label class="form-label">complaints number:</label>
+                         <label th:text=${session.inspector.complaintNumber}></label><br/><br/>
+
+                         <label class="form-label">reports in service:</label>
+                         <label th:text=${session.inspector.reportsInService}></label><br/><br/>
+        </div>
+    </body>
+</html>
