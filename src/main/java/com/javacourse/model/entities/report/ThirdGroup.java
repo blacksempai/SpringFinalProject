@@ -1,16 +1,14 @@
 package com.javacourse.model.entities.report;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="third_group")
 public class ThirdGroup {
     @Id
     @Column(name = "third_group_id")
-    private int id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
 
     @Column(name = "3_percent")
     private double threePercentTaxed05;
@@ -55,4 +53,5 @@ public class ThirdGroup {
     public void setFifteenPercentTaxed07(double fifteenPercentTaxed07) {
         this.fifteenPercentTaxed07 = fifteenPercentTaxed07;
     }
+
 }

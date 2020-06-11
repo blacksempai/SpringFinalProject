@@ -7,31 +7,33 @@ import javax.persistence.*;
 public class ReportBody {
     @Id
     @Column(name="report_body_id")
-    private int id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "info_id")
     private Info info;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "general_id")
     private General general;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "first_group_id")
     private FirstGroup firstGroup;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "second_group_id")
     private SecondGroup secondGroup;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "third_group_id")
     private ThirdGroup thirdGroup;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @PrimaryKeyJoinColumn
+    @JoinColumn(name = "error_id")
     private ErrorReport errorReport;
+
 
     public ReportBody() {
     }
@@ -91,4 +93,5 @@ public class ReportBody {
     public void setErrorReport(ErrorReport errorReport) {
         this.errorReport = errorReport;
     }
+
 }

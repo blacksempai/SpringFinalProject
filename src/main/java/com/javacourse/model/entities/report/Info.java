@@ -7,7 +7,8 @@ import javax.persistence.*;
 public class Info {
     @Id
     @Column(name = "report_info_id")
-    private int id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
 
     @Column(name = "type")
     @Enumerated(EnumType.STRING)

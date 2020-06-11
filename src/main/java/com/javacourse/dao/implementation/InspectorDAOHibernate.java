@@ -2,6 +2,7 @@ package com.javacourse.dao.implementation;
 
 import com.javacourse.dao.InspectorDAO;
 import com.javacourse.model.entities.Inspector;
+import com.javacourse.model.entities.User;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.NoResultException;
 import java.util.List;
 
 @Repository
@@ -65,17 +67,24 @@ public class InspectorDAOHibernate implements InspectorDAO {
         try (Session session = sessionFactory.openSession()) {
             Query query = session.createQuery("from Inspector where login = :login");
             query.setParameter("login", login);
-            Inspector inspector = (Inspector) query.getSingleResult();
+            Inspector inspector;
+            try {
+                inspector = (Inspector) query.getSingleResult();
+            }catch (NoResultException e){
+                return false;
+            }
             return inspector != null;
         }
     }
 
     @Override
-    public Inspector getInspectorWithLessReportsInService() {
+    public Inspector getInspectorWithLessReportsInService() {//TODO
         try (Session session = sessionFactory.openSession()) {
-            SQLQuery query = session.createSQLQuery("SELECT * FROM inspector I JOIN account A ON (I.inspector_id = A.account_id)"+
-                    " WHERE reports_in_service = (SELECT MIN(reports_in_service) FROM inspector);");
-            return (Inspector) query.getSingleResult();
+            Query query1 = session.createQuery("select min(I.reportsInService) from Inspector I");
+            Integer reportsIS = (Integer) query1.getSingleResult();
+            Query query2 = session.createQuery("from Inspector where reportsInService = :reportsInService");
+            query2.setParameter("reportsInService", reportsIS);
+            return (Inspector) query2.getSingleResult();
         }
     }
 }

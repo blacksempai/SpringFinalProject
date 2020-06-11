@@ -11,7 +11,12 @@ import java.sql.Timestamp;
 public class Report {
     @Id
     @Column(name="report_id")
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "body_id")
+    private ReportBody reportBody;
 
     @OneToOne()
     @JoinColumn(name = "user_id")
@@ -30,10 +35,6 @@ public class Report {
 
     @Column(name="review")
     private String review;
-
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "report_id")
-    private ReportBody reportBody;
 
     public Report() {
     }

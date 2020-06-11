@@ -2,13 +2,13 @@ package com.javacourse.dao;
 
 import com.javacourse.model.entities.Account;
 
-public interface AccountDAO {
+public interface AccountDAO <T extends Account> {
 
-    void create(Account account);
+    void create(T account);
 
-    void update(Account account);
+    void update(T account);
 
-    Account getById(int id);
+    T getById(int id);
 
-    Account getByLogin(String login);
+    T getByLogin(String login);
 }

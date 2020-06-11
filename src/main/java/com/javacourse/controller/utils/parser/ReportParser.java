@@ -82,11 +82,11 @@ public class ReportParser {
     private General parseGeneral(HttpServletRequest request) {
         General general = new General();
         general.setEmployeesNumber(Integer.parseInt(request.getParameter(ReportTag.EMPLOYEES_AMOUNT.getTag())));
-        general.setActivities(parseActivities(request));
+        general.setActivities(parseActivities(request, general));
         return general;
     }
 
-    private List<BusinessActivity> parseActivities(HttpServletRequest request) {
+    private List<BusinessActivity> parseActivities(HttpServletRequest request, General general) {
         List<BusinessActivity> activities = new LinkedList<>();
         for (int i = 1; i < 9; i++) {//shitty code, idk how (or don't want) to fix it =(
             if (request.getParameter(ReportTag.BUSINESS_ACTIVITY_CODE.getTag()+i)==null||
@@ -98,6 +98,7 @@ public class ReportParser {
             BusinessActivity activity = new BusinessActivity();
             activity.setCode(request.getParameter(ReportTag.BUSINESS_ACTIVITY_CODE.getTag()+i));
             activity.setName(request.getParameter(ReportTag.BUSINESS_ACTIVITY.getTag()+i));
+            activity.setGeneral(general);
             activities.add(activity);
         }
         return activities;

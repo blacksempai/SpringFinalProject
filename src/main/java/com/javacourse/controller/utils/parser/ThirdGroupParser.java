@@ -1,6 +1,6 @@
 package com.javacourse.controller.utils.parser;
 
-import com.javacourse.controller.utils.parser.ReportParser;
+
 import com.javacourse.model.entities.report.FirstGroup;
 import com.javacourse.model.entities.report.SecondGroup;
 

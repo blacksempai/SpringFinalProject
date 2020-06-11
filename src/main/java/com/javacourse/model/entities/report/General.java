@@ -2,7 +2,6 @@ package com.javacourse.model.entities.report;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 @Entity
@@ -10,32 +9,32 @@ import java.util.List;
 public class General {
     @Id
     @Column(name = "report_general_id")
-    private int id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
 
     @Column(name = "employees_number")
-    private Integer employeesNumber;
+    private int employeesNumber;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name="report_general_id")
+    @OneToMany(mappedBy = "general", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<BusinessActivity> activities = new ArrayList<>();
 
     public General() {
 
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Integer getEmployeesNumber() {
+    public int getEmployeesNumber() {
         return employeesNumber;
     }
 
-    public void setEmployeesNumber(Integer employeesNumber) {
+    public void setEmployeesNumber(int employeesNumber) {
         this.employeesNumber = employeesNumber;
     }
 
@@ -46,4 +45,5 @@ public class General {
     public void setActivities(List<BusinessActivity> activities) {
         this.activities = activities;
     }
+
 }

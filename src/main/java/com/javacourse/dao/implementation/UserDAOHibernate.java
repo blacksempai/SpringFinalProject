@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
+import javax.persistence.NoResultException;
+
 @Repository
 @Component
 public class UserDAOHibernate implements UserDAO {
@@ -54,7 +56,12 @@ public class UserDAOHibernate implements UserDAO {
         try (Session session = sessionFactory.openSession()) {
             Query query = session.createQuery("from User where login = :login");
             query.setParameter("login", login);
-            User user = (User) query.getSingleResult();
+            User user;
+            try {
+                 user = (User) query.getSingleResult();
+            }catch (NoResultException e){
+                return false;
+            }
             return user != null;
         }
     }

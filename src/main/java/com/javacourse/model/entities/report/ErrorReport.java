@@ -1,15 +1,13 @@
 package com.javacourse.model.entities.report;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="report_errors")
 public class ErrorReport {
     @Id
     @Column(name = "report_errors_id")
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
 
     @Column(name = "single_tax")
@@ -66,4 +64,5 @@ public class ErrorReport {
     public void setPennySum20(double pennySum20) {
         this.pennySum20 = pennySum20;
     }
+
 }

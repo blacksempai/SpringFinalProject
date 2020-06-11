@@ -1,16 +1,14 @@
 package com.javacourse.model.entities.report;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="second_group")
 public class SecondGroup {
     @Id
     @Column(name = "second_group_id")
-    private int id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
 
     @Column(name = "first_quarter")
     private double firstQuarter;
@@ -88,4 +86,5 @@ public class SecondGroup {
     public void setTaxedIncomeVolume04(double taxedIncomeVolume04) {
         this.taxedIncomeVolume04 = taxedIncomeVolume04;
     }
+
 }

@@ -64,7 +64,6 @@ public class ReportDAOHibernate implements ReportDAO {
             Query query = session.createQuery("from Report where inspector_id = :inspector_id");
             query.setParameter("inspector_id", inspector);
             List reports = query.getResultList();
-            session.getTransaction().commit();
             return reports;
         }
     }

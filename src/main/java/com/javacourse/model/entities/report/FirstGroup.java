@@ -1,16 +1,14 @@
 package com.javacourse.model.entities.report;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="first_group")
 public class FirstGroup {
     @Id
     @Column(name = "first_group_id")
-    private int id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
 
     @Column(name = "first_quarter")
     private double firstQuarter;
@@ -33,11 +31,11 @@ public class FirstGroup {
     public FirstGroup() {
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -88,4 +86,5 @@ public class FirstGroup {
     public void setTaxedIncomeVolume02(double taxedIncomeVolume02) {
         this.taxedIncomeVolume02 = taxedIncomeVolume02;
     }
+
 }

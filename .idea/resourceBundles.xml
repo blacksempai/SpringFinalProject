@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/resources/messages.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/site.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/site_ru.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/messages.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/messages_jp.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/messages_ru.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/messages_ua.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/messages_us.properties" />
+      <base-name>messages</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/site.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/site_jp.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/site_ru.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/site_ua.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/site_us.properties" />
+      <base-name>site</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

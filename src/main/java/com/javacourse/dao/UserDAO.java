@@ -1,7 +1,6 @@
 package com.javacourse.dao;
 
 
-import com.javacourse.model.entities.Account;
 import com.javacourse.model.entities.User;
 
 public interface UserDAO {

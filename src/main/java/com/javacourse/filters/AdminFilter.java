@@ -1,9 +1,6 @@
 package com.javacourse.filters;
 
-import com.javacourse.controller.admin.AdminPanelController;
 import com.javacourse.model.entities.Admin;
-import com.javacourse.model.entities.Inspector;
-import com.javacourse.model.entities.User;
 import org.apache.log4j.Logger;
 
 import javax.servlet.*;

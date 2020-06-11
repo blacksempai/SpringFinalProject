@@ -1,7 +1,6 @@
 package com.javacourse.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
 import javax.servlet.ServletRegistration;
 
 public class SpringDispatcherServletConf extends AbstractAnnotationConfigDispatcherServletInitializer {
@@ -25,4 +24,5 @@ public class SpringDispatcherServletConf extends AbstractAnnotationConfigDispatc
         boolean done = registration.setInitParameter("throwExceptionIfNoHandlerFound", "true"); // -> true
         if(!done) throw new RuntimeException();
     }
+
 }
