@@ -1,22 +1,29 @@
-# JavaExternalFinalProject
+# SpringFinalProject
 
-# Система Подачи Отчетов в Налоговую.
-Физ./Юр.лицо (далее Пользователь) регистрируется. Подает отчет (XML/JSON/Форма). Налоговый Инспектор принимает/отклоняет отчет (указывая причину отказа). Пользователь может просмотреть все поданные отчеты, причины отказа и изменять их если того потребовал Инспектор. Пользователь может отправлять запрос на замену Инспектора в случае неудовлетворения. 
+# System for Submission of Reports to the Tax.
+An individual / legal entity (hereinafter referred to as the User) is registered. Submits a report (XML / JSON / Form). The Tax Inspector accepts / rejects the report (indicating the reason for the refusal). The user can view all submitted reports, the reasons for the refusal and change them if requested by the Inspector. The user can send a request to replace the Inspector in case of dissatisfaction.
 
-# Инструкция по установке 
+# (RU) РЎРёСЃС‚РµРјР° РџРѕРґР°С‡Рё РћС‚С‡РµС‚РѕРІ РІ РќР°Р»РѕРіРѕРІСѓСЋ. Р’Р°СЂРёР°РЅС‚ 5
+Р¤РёР·./Р®СЂ.Р»РёС†Рѕ (РґР°Р»РµРµ РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ) СЂРµРіРёСЃС‚СЂРёСЂСѓРµС‚СЃСЏ. РџРѕРґР°РµС‚ РѕС‚С‡РµС‚ (XML/JSON/Р¤РѕСЂРјР°). РќР°Р»РѕРіРѕРІС‹Р№ РРЅСЃРїРµРєС‚РѕСЂ РїСЂРёРЅРёРјР°РµС‚/РѕС‚РєР»РѕРЅСЏРµС‚ РѕС‚С‡РµС‚ (СѓРєР°Р·С‹РІР°СЏ РїСЂРёС‡РёРЅСѓ РѕС‚РєР°Р·Р°). РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ РјРѕР¶РµС‚ РїСЂРѕСЃРјРѕС‚СЂРµС‚СЊ РІСЃРµ РїРѕРґР°РЅРЅС‹Рµ РѕС‚С‡РµС‚С‹, РїСЂРёС‡РёРЅС‹ РѕС‚РєР°Р·Р° Рё РёР·РјРµРЅСЏС‚СЊ РёС… РµСЃР»Рё С‚РѕРіРѕ РїРѕС‚СЂРµР±РѕРІР°Р» РРЅСЃРїРµРєС‚РѕСЂ. РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ РјРѕР¶РµС‚ РѕС‚РїСЂР°РІР»СЏС‚СЊ Р·Р°РїСЂРѕСЃ РЅР° Р·Р°РјРµРЅСѓ РРЅСЃРїРµРєС‚РѕСЂР° РІ СЃР»СѓС‡Р°Рµ РЅРµСѓРґРѕРІР»РµС‚РІРѕСЂРµРЅРёСЏ. 
+
+# Installation Instructions 
 ```
 git clone https://github.com/blacksempai/SpringFinalProject.git
 ```
 
-# Инструкция по запуску приложения
+# Deployment Instruction
 
-1)Install database from [schema.sql](database/schema.sql)
+1)Config database in [application.properties](src/main/resources/application.properties)
 
-2)Insert accounts from [db.sql](database/db.sql)
+2)Install database from [schema.sql](database/schema.sql)
 
-3)Build and deploy the project
+3)Insert accounts from [db.sql](database/db.sql)
 
-4)Go to url localhost:8080/
+4)Build and deploy the project
+
+5)Go to url localhost:8080/
+
+
 
 You can test User logic via 
 
