@@ -9,20 +9,20 @@
         </div>
         <div class="sign-form">
             <div th:if="${message!=null}">
-                 <div style="color:red;" th:text="${message}"></div><br/>
+                 <div style="color:red;" th:text="#{__${message}__}"></div><br/>
             </div>
-            <div th:if="${param.error}" class="alert alert-error">
-                Invalid username and password.
+            <div style="color:red;" th:if="${param.error}">
+                Invalid username and password.<br>
             </div>
-            <div th:if="${param.logout}" class="alert alert-success">
-                You have been logged out.
+            <div style="color:green;" th:if="${param.logout}">
+                You have signed out.<br>
             </div>
-            <form method="POST" action="sign-in">
+            <form name="f" method="POST" th:action="@{sign-in}">
                 <label class="form-label" th:text="#{label.login}"></label>
-                <input type="text" name="login"><br/><br/>
+                <input type="text" id="username" name="username"><br/><br/>
 
                 <label class="form-label" th:text="#{label.password}"></label>
-                <input type="password" name="password"><br/><br/>
+                <input type="password" id="password" name="password"><br/><br/>
 
                 <input type="submit">
             </form>

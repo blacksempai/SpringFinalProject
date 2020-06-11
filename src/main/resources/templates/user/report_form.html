@@ -10,7 +10,7 @@
 
     <div class="content"><br>
     <div th:if="${message!=null}">
-        <div style="color:red;" th:text="${message}">
+        <div style="color:red;" th:text="#{__${message}__}">
         </div><br>
     </div>
 
@@ -118,35 +118,7 @@
     </tbody>
 </table>
 <div style="text-align: center;">(найменування контролюючого органу, до якого подається звітність)</div>
-<table style="width: 100%; margin-bottom: 4px;" border="1" cellspacing="0" cellpadding="2">
-    <tbody>
-    <tr>
-        <td style="width: 22px;">05</td>
-        <td>Платник</td>
-        <td><b th:text="${session.user.fullName}"></b></td>
-    </tr>
-    </tbody>
-</table>
-<div style="text-align: center;">(прізвище, ім'я, по батькові платника податків згідно з реєстраційними документами)</div>
-<table style="width: 100%; margin-bottom: 4px;" border="1" cellspacing="0" cellpadding="2">
-    <tbody>
-    <tr>
-        <td style="width: 22px;">06</td>
-        <td>Податкова адреса</td>
-        <td><b th:text="${session.user.address}"></b></td>
-    </tr>
-    </tbody>
-</table>
-<div style="text-align: center;">(податкова адреса (місце проживання) платника податку)</div>
-<table style="width: 100%; margin-bottom: 4px;" border="1" cellspacing="0" cellpadding="2">
-    <tbody>
-    <tr>
-        <td style="width: 22px;">07</td>
-        <td>Реєстраційний номер облікової картки платника податків або серія та номер паспорта<sup>1</sup></td>
-        <td><b th:text="${session.user.passport}"></b></td>
-    </tr>
-    </tbody>
-</table>
+
 <p style="text-align: center;"><strong>&nbsp;І. ЗАГАЛЬНІ ПОКАЗНИКИ ПІДПРИЄМНИЦЬКОЇ ДІЯЛЬНОСТІ</strong></p>
 <table style="width: 100%;" border="1" cellspacing="0" cellpadding="2">
     <tbody>

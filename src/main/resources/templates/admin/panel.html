@@ -7,9 +7,9 @@
     <body>
         <div class="header" th:insert="shared/header :: header">
         </div>
-        <c:if test="${message!=null}">
-        <div style="color:red;">${message}</div><br/>
-        </c:if>
+        <div th:if="${message!=null}">
+        <div style="color:red;" th:text="#{__${message}__}"></div><br/>
+        </div>
         <table>
             <tr>
                 <td>id</td>
@@ -20,25 +20,24 @@
                 <td>complaints</td>
                 <td>service</td>
             </tr>
-            <c:forEach var="i" items="${inspectors}">
-            <form action="change?id=${i.id}" method="POST">
-                <tr>
-                    <td><input type="text" value="${i.id}" readonly/></td>
-                    <td><input type="text" value="${i.login}" name="login"></td>
-                    <td><input type="text" value="" name="password"></td>
-                    <td><input type="text" value="${i.fullName}" name="full_name"></td>
-                    <td><input type="text" value="${i.email}" name="email"></td>
-                    <td><input type="text" value="${i.complaintNumber}" name="complaints"></td>
-                    <td><input type="text" value="${i.reportsInService}" name="service"></td>
-                    <td><input type="submit" value="Change"></td>
-                </tr>
-            </form>
-            </c:forEach>
-
+            <block th:each="i : ${inspectors}">
+                <form th:action="@{change(id=${i.id})}" method="POST">
+                    <tr>
+                        <td><input type="text" th:value="${i.id}" readonly/></td>
+                        <td><input type="text" th:value="${i.username}" name="username"></td>
+                        <td><input type="text" value="" name="password"></td>
+                        <td><input type="text" th:value="${i.fullName}" name="full_name"></td>
+                        <td><input type="text" th:value="${i.email}" name="email"></td>
+                        <td><input type="text" th:value="${i.complaintNumber}" name="complaints"></td>
+                        <td><input type="text" th:value="${i.reportsInService}" name="service"></td>
+                        <td><input type="submit" th:value="Change"></td>
+                    </tr>
+                </form>
+            </block>
             <form action="add" method="POST">
             <tr>
                 <td><input type="text" value="?" readonly/></td>
-                <td><input type="text" value="" name="login"></td>
+                <td><input type="text" value="" name="username"></td>
                 <td><input type="text" value="" name="password"></td>
                 <td><input type="text" value="" name="full_name"></td>
                 <td><input type="text" value="" name="email"></td>

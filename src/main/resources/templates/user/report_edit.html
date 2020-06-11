@@ -13,7 +13,7 @@
     <p><b>Обзор: <i style="color:red;" th:text="${report.review}"></i></b></p>
     </div>
     <block th:if="${message!=null}">
-        <div style="color:red;" th:text="${message}">
+        <div style="color:red;" th:text="#{__${message}__}">
         </div><br>
         <p>&nbsp;</p>
     </block>
