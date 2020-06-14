@@ -12,6 +12,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import javax.validation.ConstraintViolationException;
 import java.util.List;
 
 @Slf4j
@@ -36,7 +37,7 @@ public class AccountServiceImpl<T extends Account> implements AccountService<T> 
             verifyUserHasNotYetRegistered(account.getUsername());
             accountDAO.save(account);
             return true;
-        } catch (IllegalArgumentException e){
+        } catch (ConstraintViolationException | IllegalArgumentException e){
             log.info(e.getMessage(), e);
         }
         return false;

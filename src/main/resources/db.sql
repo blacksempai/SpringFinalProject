@@ -1,4 +1,5 @@
-INSERT account(account_id,login,password_hash,email) 
+USE `taxes_test` ;
+INSERT account(account_id,login,password_hash,email)
 VALUES (1,'root','$2a$10$pDYwHkl7kG4vZKLpOwFhUu9WmhWH6K4VXR0Z55F78TN.iJtT85qZi','root@gmail.com'),
 (2,'neo','$2a$10$pDYwHkl7kG4vZKLpOwFhUu9WmhWH6K4VXR0Z55F78TN.iJtT85qZi','Matrix1998@gmail.com'),
 (3,'inspector01','$2a$10$.FRdH1A1bRr7bNGlSo8vieVN.KvHw74T6c1N2/BzaYmqc2yDhhbJG','gadget@gmail.com'),

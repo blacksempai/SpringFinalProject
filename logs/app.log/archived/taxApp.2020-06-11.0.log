@@ -1,0 +1,426 @@
+INFO  2020-06-11 08:00:19 org.springframework.boot.StartupInfoLogger | Starting TaxAppApplication on DESKTOP-FTJO7M3 with PID 6832 (C:\Users\benja\epam\git\final\taxApp\target\classes started by benja in C:\Users\benja\epam\git\final\taxApp)
+INFO  2020-06-11 08:00:19 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 08:00:25 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 08:00:26 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 204ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 08:00:31 org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+INFO  2020-06-11 08:00:31 org.apache.juli.logging.DirectJDKLog | Initializing ProtocolHandler ["http-nio-8080"]
+INFO  2020-06-11 08:00:31 org.apache.juli.logging.DirectJDKLog | Starting service [Tomcat]
+INFO  2020-06-11 08:00:31 org.apache.juli.logging.DirectJDKLog | Starting Servlet engine: [Apache Tomcat/9.0.35]
+INFO  2020-06-11 08:00:31 org.apache.juli.logging.DirectJDKLog | Initializing Spring embedded WebApplicationContext
+INFO  2020-06-11 08:00:31 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 11289 ms
+INFO  2020-06-11 08:00:32 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 08:00:32 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 08:00:33 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 08:00:33 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+WARN  2020-06-11 08:00:34 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 08:00:34 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+INFO  2020-06-11 08:00:36 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 08:00:36 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 08:00:40 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 08:00:40 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 08:00:43 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@464ede1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@63de4fa, org.springframework.security.web.header.HeaderWriterFilter@5b322873, org.springframework.security.web.authentication.logout.LogoutFilter@7cb29ea8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@bfb93cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18907af2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63db743d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64910b2d, org.springframework.security.web.session.SessionManagementFilter@7ad889be, org.springframework.security.web.access.ExceptionTranslationFilter@72a7aa4f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b458cd6]
+INFO  2020-06-11 08:00:47 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 08:00:48 org.apache.juli.logging.DirectJDKLog | Starting ProtocolHandler ["http-nio-8080"]
+INFO  2020-06-11 08:00:49 org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+INFO  2020-06-11 08:00:49 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 08:00:49 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 08:00:49 org.springframework.boot.StartupInfoLogger | Started TaxAppApplication in 32.108 seconds (JVM running for 35.875)
+INFO  2020-06-11 08:01:07 org.apache.juli.logging.DirectJDKLog | Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  2020-06-11 08:01:07 org.springframework.web.servlet.FrameworkServlet | Initializing Servlet 'dispatcherServlet'
+INFO  2020-06-11 08:01:07 org.springframework.web.servlet.FrameworkServlet | Completed initialization in 9 ms
+WARN  2020-06-11 08:01:17 org.apache.juli.logging.DirectJDKLog | Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [344] milliseconds.
+INFO  2020-06-11 18:01:31 org.springframework.boot.StartupInfoLogger | Starting TaxAppApplication on DESKTOP-FTJO7M3 with PID 12604 (C:\Users\benja\epam\git\final\git\SpringFinalProject\target\classes started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 18:01:31 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 18:01:36 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 18:01:36 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 134ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 18:01:40 org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+INFO  2020-06-11 18:01:40 org.apache.juli.logging.DirectJDKLog | Initializing ProtocolHandler ["http-nio-8080"]
+INFO  2020-06-11 18:01:40 org.apache.juli.logging.DirectJDKLog | Starting service [Tomcat]
+INFO  2020-06-11 18:01:40 org.apache.juli.logging.DirectJDKLog | Starting Servlet engine: [Apache Tomcat/9.0.35]
+INFO  2020-06-11 18:01:41 org.apache.juli.logging.DirectJDKLog | Initializing Spring embedded WebApplicationContext
+INFO  2020-06-11 18:01:41 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 9663 ms
+INFO  2020-06-11 18:01:41 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 18:01:41 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 18:01:42 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 18:01:42 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+WARN  2020-06-11 18:01:43 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 18:01:43 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+INFO  2020-06-11 18:01:44 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 18:01:45 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 18:01:49 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 18:01:49 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 18:01:52 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@388f1258, org.springframework.security.web.context.SecurityContextPersistenceFilter@5458c71e, org.springframework.security.web.header.HeaderWriterFilter@3f3c8b60, org.springframework.security.web.authentication.logout.LogoutFilter@43588265, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@710ae6a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b3857e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36463b09, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62058742, org.springframework.security.web.session.SessionManagementFilter@3f357c9d, org.springframework.security.web.access.ExceptionTranslationFilter@743bb39a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1187dc82]
+INFO  2020-06-11 18:01:52 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 18:01:53 org.apache.juli.logging.DirectJDKLog | Starting ProtocolHandler ["http-nio-8080"]
+INFO  2020-06-11 18:01:53 org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+INFO  2020-06-11 18:01:53 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 18:01:54 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 18:01:54 org.springframework.boot.StartupInfoLogger | Started TaxAppApplication in 24.658 seconds (JVM running for 27.453)
+INFO  2020-06-11 18:01:54 org.apache.juli.logging.DirectJDKLog | Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  2020-06-11 18:01:54 org.springframework.web.servlet.FrameworkServlet | Initializing Servlet 'dispatcherServlet'
+INFO  2020-06-11 18:01:54 org.springframework.web.servlet.FrameworkServlet | Completed initialization in 16 ms
+WARN  2020-06-11 18:02:26 org.apache.juli.logging.DirectJDKLog | Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [226] milliseconds.
+INFO  2020-06-11 18:40:36 org.springframework.boot.StartupInfoLogger | Starting TaxAppApplication on DESKTOP-FTJO7M3 with PID 10188 (C:\Users\benja\epam\git\final\git\SpringFinalProject\target\classes started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 18:40:36 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 18:40:39 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 18:40:39 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 230ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 18:40:41 org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat initialized with port(s): 8080 (http)
+INFO  2020-06-11 18:40:42 org.apache.juli.logging.DirectJDKLog | Initializing ProtocolHandler ["http-nio-8080"]
+INFO  2020-06-11 18:40:42 org.apache.juli.logging.DirectJDKLog | Starting service [Tomcat]
+INFO  2020-06-11 18:40:42 org.apache.juli.logging.DirectJDKLog | Starting Servlet engine: [Apache Tomcat/9.0.35]
+INFO  2020-06-11 18:40:42 org.apache.juli.logging.DirectJDKLog | Initializing Spring embedded WebApplicationContext
+INFO  2020-06-11 18:40:42 org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext | Root WebApplicationContext: initialization completed in 6072 ms
+INFO  2020-06-11 18:40:42 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 18:40:42 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 18:40:43 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 18:40:43 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+WARN  2020-06-11 18:40:43 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 18:40:43 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+INFO  2020-06-11 18:40:43 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 18:40:43 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 18:40:47 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 18:40:47 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 18:40:48 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cecc15a, org.springframework.security.web.context.SecurityContextPersistenceFilter@52d96367, org.springframework.security.web.header.HeaderWriterFilter@4aa3fc9a, org.springframework.security.web.authentication.logout.LogoutFilter@3f357c9d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7af0d91b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3302035b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19105a87, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d969452, org.springframework.security.web.session.SessionManagementFilter@634aa81e, org.springframework.security.web.access.ExceptionTranslationFilter@23f60b7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c758a2d]
+INFO  2020-06-11 18:40:49 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 18:40:50 org.apache.juli.logging.DirectJDKLog | Starting ProtocolHandler ["http-nio-8080"]
+INFO  2020-06-11 18:40:50 org.springframework.boot.web.embedded.tomcat.TomcatWebServer | Tomcat started on port(s): 8080 (http) with context path ''
+INFO  2020-06-11 18:40:50 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 18:40:50 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 18:40:50 org.springframework.boot.StartupInfoLogger | Started TaxAppApplication in 15.308 seconds (JVM running for 17.091)
+INFO  2020-06-11 18:41:27 org.apache.juli.logging.DirectJDKLog | Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  2020-06-11 18:41:27 org.springframework.web.servlet.FrameworkServlet | Initializing Servlet 'dispatcherServlet'
+INFO  2020-06-11 18:41:27 org.springframework.web.servlet.FrameworkServlet | Completed initialization in 8 ms
+WARN  2020-06-11 18:41:27 org.apache.juli.logging.DirectJDKLog | Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [204] milliseconds.
+INFO  2020-06-11 22:33:07 org.springframework.boot.StartupInfoLogger | Starting TaxAppApplication on DESKTOP-FTJO7M3 with PID 8928 (C:\Users\benja\epam\git\final\git\SpringFinalProject\target\classes started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 22:33:07 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 22:33:22 org.springframework.test.context.support.AbstractTestContextBootstrapper | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javacourse.taxApp.service.impl.AccountServiceTest], using SpringBootContextLoader
+INFO  2020-06-11 22:33:22 org.springframework.test.context.support.AbstractContextLoader | Could not detect default resource locations for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO  2020-06-11 22:33:22 org.springframework.test.context.support.AnnotationConfigContextLoaderUtils | Could not detect default configuration classes for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: AccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  2020-06-11 22:33:23 org.springframework.boot.test.context.SpringBootTestContextBootstrapper | Found @SpringBootConfiguration com.javacourse.taxApp.TaxAppApplication for test class com.javacourse.taxApp.service.impl.AccountServiceTest
+INFO  2020-06-11 22:33:23 org.springframework.test.context.support.AbstractTestContextBootstrapper | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+INFO  2020-06-11 22:33:23 org.springframework.test.context.support.AbstractTestContextBootstrapper | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@59252cb6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31d0e481, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3243b914, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@241e8ea6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@542e560f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@626c44e7, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4dc8caa7, org.springframework.test.context.event.EventPublishingTestExecutionListener@1d730606, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@3bcbb589, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@3b00856b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3016fd5e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@35d08e6c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53d102a2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c45ee6e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6b3e12b5, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5aac4250]
+INFO  2020-06-11 22:33:23 org.springframework.boot.StartupInfoLogger | Starting AccountServiceTest on DESKTOP-FTJO7M3 with PID 5308 (started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 22:33:23 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 22:33:26 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 22:33:26 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 220ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 22:33:28 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 22:33:28 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 22:33:30 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 22:33:31 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+WARN  2020-06-11 22:33:31 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 22:33:32 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+INFO  2020-06-11 22:33:32 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 22:33:32 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 22:33:34 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 22:33:34 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 22:33:36 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60bc308b, org.springframework.security.web.context.SecurityContextPersistenceFilter@73ddb7ef, org.springframework.security.web.header.HeaderWriterFilter@65259c53, org.springframework.security.web.authentication.logout.LogoutFilter@f44d033, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@422ba9b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7976e536, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f237ae7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56499781, org.springframework.security.web.session.SessionManagementFilter@2591d23a, org.springframework.security.web.access.ExceptionTranslationFilter@380e33c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@647ff23e]
+INFO  2020-06-11 22:33:37 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 22:33:38 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 22:33:38 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 22:33:39 org.springframework.boot.StartupInfoLogger | Started AccountServiceTest in 15.67 seconds (JVM running for 18.982)
+INFO  2020-06-11 22:33:40 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 22:33:40 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 22:33:40 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+INFO  2020-06-11 22:33:40 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+INFO  2020-06-11 22:36:57 org.springframework.test.context.support.AbstractTestContextBootstrapper | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javacourse.taxApp.service.impl.AccountServiceTest], using SpringBootContextLoader
+INFO  2020-06-11 22:36:57 org.springframework.test.context.support.AbstractContextLoader | Could not detect default resource locations for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO  2020-06-11 22:36:57 org.springframework.test.context.support.AnnotationConfigContextLoaderUtils | Could not detect default configuration classes for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: AccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  2020-06-11 22:36:57 org.springframework.boot.test.context.SpringBootTestContextBootstrapper | Found @SpringBootConfiguration com.javacourse.taxApp.TaxAppApplication for test class com.javacourse.taxApp.service.impl.AccountServiceTest
+INFO  2020-06-11 22:36:58 org.springframework.test.context.support.AbstractTestContextBootstrapper | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+INFO  2020-06-11 22:36:58 org.springframework.test.context.support.AbstractTestContextBootstrapper | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@fade1fc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@67c2e933, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@41dd05a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@613a8ee1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@178213b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7103cb56, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1b765a2c, org.springframework.test.context.event.EventPublishingTestExecutionListener@2e8e8225, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@6ebf0f36, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@18920cc, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2807bdeb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@72c28d64, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6492fab5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c5529ab, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@39a8312f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5f6722d3]
+INFO  2020-06-11 22:36:59 org.springframework.boot.StartupInfoLogger | Starting AccountServiceTest on DESKTOP-FTJO7M3 with PID 5216 (started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 22:36:59 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 22:37:01 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 22:37:01 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 163ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 22:37:03 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 22:37:03 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 22:37:05 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 22:37:05 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  2020-06-11 22:37:05 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+WARN  2020-06-11 22:37:05 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 22:37:06 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 22:37:07 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 22:37:08 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 22:37:08 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 22:37:09 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42238078, org.springframework.security.web.context.SecurityContextPersistenceFilter@60ab895f, org.springframework.security.web.header.HeaderWriterFilter@57b33c29, org.springframework.security.web.authentication.logout.LogoutFilter@2110684a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2de7c84a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44e08a7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36511772, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5627b8eb, org.springframework.security.web.session.SessionManagementFilter@3a8b9458, org.springframework.security.web.access.ExceptionTranslationFilter@f44d033, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ec7ad61]
+INFO  2020-06-11 22:37:11 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 22:37:12 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 22:37:12 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 22:37:12 org.springframework.boot.StartupInfoLogger | Started AccountServiceTest in 13.989 seconds (JVM running for 17.762)
+INFO  2020-06-11 22:37:13 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 22:37:13 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 22:37:13 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+INFO  2020-06-11 22:37:13 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+INFO  2020-06-11 22:39:03 org.springframework.test.context.support.AbstractTestContextBootstrapper | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javacourse.taxApp.service.impl.AccountServiceTest], using SpringBootContextLoader
+INFO  2020-06-11 22:39:03 org.springframework.test.context.support.AbstractContextLoader | Could not detect default resource locations for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO  2020-06-11 22:39:03 org.springframework.test.context.support.AnnotationConfigContextLoaderUtils | Could not detect default configuration classes for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: AccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  2020-06-11 22:39:05 org.springframework.boot.test.context.SpringBootTestContextBootstrapper | Found @SpringBootConfiguration com.javacourse.taxApp.TaxAppApplication for test class com.javacourse.taxApp.service.impl.AccountServiceTest
+INFO  2020-06-11 22:39:05 org.springframework.test.context.support.AbstractTestContextBootstrapper | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+INFO  2020-06-11 22:39:05 org.springframework.test.context.support.AbstractTestContextBootstrapper | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5a9d6f02, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@362045c0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@112f364d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ccbeb64, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d9f7a80, org.springframework.test.context.transaction.TransactionalTestExecutionListener@59252cb6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@31d0e481, org.springframework.test.context.event.EventPublishingTestExecutionListener@3243b914, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@241e8ea6, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@542e560f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@626c44e7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4dc8caa7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1d730606, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3bcbb589, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3b00856b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3016fd5e]
+INFO  2020-06-11 22:39:06 org.springframework.boot.StartupInfoLogger | Starting AccountServiceTest on DESKTOP-FTJO7M3 with PID 11364 (started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 22:39:06 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 22:39:09 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 22:39:09 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 153ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 22:39:11 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 22:39:11 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 22:39:13 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 22:39:13 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+WARN  2020-06-11 22:39:13 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 22:39:13 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+INFO  2020-06-11 22:39:13 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 22:39:14 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 22:39:16 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 22:39:16 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 22:39:17 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2adc1e84, org.springframework.security.web.context.SecurityContextPersistenceFilter@10f8e2d2, org.springframework.security.web.header.HeaderWriterFilter@6339e604, org.springframework.security.web.authentication.logout.LogoutFilter@44e08a7a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a2798a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d404a3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25e95af1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a99fa07, org.springframework.security.web.session.SessionManagementFilter@33e8e146, org.springframework.security.web.access.ExceptionTranslationFilter@7976e536, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d3b272a]
+INFO  2020-06-11 22:39:19 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 22:39:19 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 22:39:19 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 22:39:19 org.springframework.boot.StartupInfoLogger | Started AccountServiceTest in 13.857 seconds (JVM running for 18.817)
+INFO  2020-06-11 22:39:20 com.javacourse.taxApp.service.impl.AccountServiceImpl | User with the provided username already exists
+java.lang.IllegalArgumentException: User with the provided username already exists
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl.verifyUserHasNotYetRegistered(AccountServiceImpl.java:48)
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl.register(AccountServiceImpl.java:37)
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl$$FastClassBySpringCGLIB$$5226b829.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl$$EnhancerBySpringCGLIB$$9f901e79.register(<generated>)
+	at com.javacourse.taxApp.service.impl.AccountServiceTest.register(AccountServiceTest.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+INFO  2020-06-11 22:39:20 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 22:39:20 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 22:39:20 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+INFO  2020-06-11 22:39:20 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.
+INFO  2020-06-11 23:01:33 org.springframework.test.context.support.AbstractTestContextBootstrapper | Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javacourse.taxApp.service.impl.AccountServiceTest], using SpringBootContextLoader
+INFO  2020-06-11 23:01:33 org.springframework.test.context.support.AbstractContextLoader | Could not detect default resource locations for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+INFO  2020-06-11 23:01:33 org.springframework.test.context.support.AnnotationConfigContextLoaderUtils | Could not detect default configuration classes for test class [com.javacourse.taxApp.service.impl.AccountServiceTest]: AccountServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+INFO  2020-06-11 23:01:33 org.springframework.boot.test.context.SpringBootTestContextBootstrapper | Found @SpringBootConfiguration com.javacourse.taxApp.TaxAppApplication for test class com.javacourse.taxApp.service.impl.AccountServiceTest
+INFO  2020-06-11 23:01:34 org.springframework.test.context.support.AbstractTestContextBootstrapper | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+INFO  2020-06-11 23:01:34 org.springframework.test.context.support.AbstractTestContextBootstrapper | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@302a07d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5cdd09b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@8c11eee, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e8dcdaa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@681a8b4e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5cbe877d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c08c46a, org.springframework.test.context.event.EventPublishingTestExecutionListener@4cf8b2dc, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@708400f6, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@5829e4f4, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4218500f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4bff64c2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b2c4efb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@c35172e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c2db68f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3cc41abc]
+INFO  2020-06-11 23:01:35 org.springframework.boot.StartupInfoLogger | Starting AccountServiceTest on DESKTOP-FTJO7M3 with PID 5632 (started by benja in C:\Users\benja\epam\git\final\git\SpringFinalProject)
+INFO  2020-06-11 23:01:35 org.springframework.boot.SpringApplication | No active profile set, falling back to default profiles: default
+INFO  2020-06-11 23:01:38 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+INFO  2020-06-11 23:01:38 org.springframework.data.repository.config.RepositoryConfigurationDelegate | Finished Spring Data repository scanning in 141ms. Found 4 JPA repository interfaces.
+INFO  2020-06-11 23:01:41 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Initializing ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 23:01:41 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Starting...
+INFO  2020-06-11 23:01:43 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Start completed.
+INFO  2020-06-11 23:01:43 org.hibernate.jpa.internal.util.LogHelper | HHH000204: Processing PersistenceUnitInfo [name: default]
+WARN  2020-06-11 23:01:43 org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration | spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  2020-06-11 23:01:43 org.hibernate.Version | HHH000412: Hibernate ORM core version 5.4.15.Final
+INFO  2020-06-11 23:01:43 org.hibernate.annotations.common.reflection.java.JavaReflectionManager | HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+INFO  2020-06-11 23:01:44 org.hibernate.dialect.Dialect | HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+INFO  2020-06-11 23:01:46 org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator | HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  2020-06-11 23:01:46 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 23:01:48 org.springframework.security.web.DefaultSecurityFilterChain | Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37364634, org.springframework.security.web.context.SecurityContextPersistenceFilter@8ee03f5, org.springframework.security.web.header.HeaderWriterFilter@1b69fc07, org.springframework.security.web.authentication.logout.LogoutFilter@3ec7ad61, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7544260a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d3b272a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c53bd49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3dec79f8, org.springframework.security.web.session.SessionManagementFilter@42d0e41, org.springframework.security.web.access.ExceptionTranslationFilter@647ff23e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@727956bb]
+INFO  2020-06-11 23:01:50 org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping | Adding welcome page template: index
+INFO  2020-06-11 23:01:51 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Triggering deferred initialization of Spring Data repositories…
+INFO  2020-06-11 23:01:51 org.springframework.data.repository.config.DeferredRepositoryInitializationListener | Spring Data repositories initialized!
+INFO  2020-06-11 23:01:51 org.springframework.boot.StartupInfoLogger | Started AccountServiceTest in 16.719 seconds (JVM running for 20.964)
+INFO  2020-06-11 23:01:52 com.javacourse.taxApp.service.impl.AccountServiceImpl | Validation failed for classes [com.javacourse.taxApp.model.entities.Account] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='msg.mail-error', propertyPath=email, rootBeanClass=class com.javacourse.taxApp.model.entities.Account, messageTemplate='msg.mail-error'}
+	ConstraintViolationImpl{interpolatedMessage='msg.login-error', propertyPath=username, rootBeanClass=class com.javacourse.taxApp.model.entities.Account, messageTemplate='msg.login-error'}
+]
+javax.validation.ConstraintViolationException: Validation failed for classes [com.javacourse.taxApp.model.entities.Account] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='msg.mail-error', propertyPath=email, rootBeanClass=class com.javacourse.taxApp.model.entities.Account, messageTemplate='msg.mail-error'}
+	ConstraintViolationImpl{interpolatedMessage='msg.login-error', propertyPath=username, rootBeanClass=class com.javacourse.taxApp.model.entities.Account, messageTemplate='msg.login-error'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:203)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:78)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:710)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:696)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:314)
+	at com.sun.proxy.$Proxy96.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:554)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.ImplementationInvocationMetadata.invoke(ImplementationInvocationMetadata.java:72)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:382)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:205)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:549)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:155)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy119.save(Unknown Source)
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl.register(AccountServiceImpl.java:38)
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl$$FastClassBySpringCGLIB$$5226b829.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.javacourse.taxApp.service.impl.AccountServiceImpl$$EnhancerBySpringCGLIB$$92699bea.register(<generated>)
+	at com.javacourse.taxApp.service.impl.AccountServiceTest.register(AccountServiceTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:686)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+INFO  2020-06-11 23:01:52 org.springframework.orm.jpa.AbstractEntityManagerFactoryBean | Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  2020-06-11 23:01:52 org.springframework.scheduling.concurrent.ExecutorConfigurationSupport | Shutting down ExecutorService 'applicationTaskExecutor'
+INFO  2020-06-11 23:01:52 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown initiated...
+INFO  2020-06-11 23:01:52 com.zaxxer.hikari.HikariDataSource | HikariPool-1 - Shutdown completed.

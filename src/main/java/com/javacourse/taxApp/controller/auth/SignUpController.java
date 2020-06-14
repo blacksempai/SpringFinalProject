@@ -30,7 +30,7 @@ public class SignUpController {
     }
 
     @PostMapping("/auth/sign-up")
-    public String signUp(HttpServletRequest request, HttpServletResponse response) {
+    public String signUp(HttpServletRequest request) {
         User user = buildUser(request);
         if (ValidationManager.isValid(user)){
             if (userService.register(user))
