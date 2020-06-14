@@ -30,7 +30,7 @@ You can test User logic via
 ```
 Tomas Anderson account:
 login: neo
-password: Matrix1999
+password: root
 ```
 
 You can test Inspector logic via 
