@@ -15,9 +15,9 @@ git clone https://github.com/blacksempai/SpringFinalProject.git
 
 1)Config database in [application.properties](src/main/resources/application.properties)
 
-2)Install database from [schema.sql](database/schema.sql)
+2)Install database from [schema.sql](src/main/resources/schema.sql)
 
-3)Insert accounts from [db.sql](database/db.sql)
+3)Insert accounts from [db.sql](src/main/resources/db.sql)
 
 4)Build and deploy the project
 
