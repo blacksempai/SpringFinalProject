@@ -1,4 +1,4 @@
-USE `taxes_test` ;
+USE `taxes` ;
 INSERT account(account_id,login,password_hash,email)
 VALUES (1,'root','$2a$10$pDYwHkl7kG4vZKLpOwFhUu9WmhWH6K4VXR0Z55F78TN.iJtT85qZi','root@gmail.com'),
 (2,'neo','$2a$10$pDYwHkl7kG4vZKLpOwFhUu9WmhWH6K4VXR0Z55F78TN.iJtT85qZi','Matrix1998@gmail.com'),
